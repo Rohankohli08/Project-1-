@@ -4,3 +4,9 @@
 - Must download the vaderSentiment package
 - This code runs on either windows or mac systems
 ## Documentation Map
+Main Branch Folders
+- Data
+  - Amazon_Reviews.csv (origional data)
+  - clean_df.csv (cleaned data)
+- Output
+- Scripts
