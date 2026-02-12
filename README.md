@@ -22,6 +22,7 @@ Cleaning the data
 - Classify ratings into new column 'high' (4 and 5) or 'low' (1 and 2)
 - Remove 3 ratings
 - Keep only the top 5 countries with the most ratings
+  
 Analysis
 1. Generate sentiment scores based on the review text column using Vader package based on example code
    - This will create 4 new columns that correspond to compound sentiment, positive sentiment, neutral sentiment, and negitive sentiment
@@ -33,6 +34,7 @@ Analysis
    - OneHotEncoder for categorical features
 6. Fit a logistic regression to this tranformed data
 7. Fine tune the model to maximize the F1 score
+   
 Evaluation
 - Find accuracy, precision, recall, F1, and correlation scores (considered successful if accuracy is >90%)
 - Create a feature importance map to determine what factor is the greatest predictor of rating
