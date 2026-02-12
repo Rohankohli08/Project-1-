@@ -7,7 +7,7 @@
 Main Branch Folders
 - Data
   - Amazon_Reviews.csv (original data)
-  - clean_df.csv (cleaned data)
+  - final_cleaned_dataset.csv (cleaned data)
 - Output
 - Scripts
   - EDA.ipynb (exploratory analysis)
