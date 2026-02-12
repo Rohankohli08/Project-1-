@@ -24,10 +24,15 @@ Cleaning the data
 - Keep only the top 5 countries with the most ratings
 Analysis
 1. Generate sentiment scores based on the review text column using Vader package based on example code
-2. Once you have 4 new columns that correspond to compound sentiment, positive sentiment, neutral sentiment, and negitive sentiment split the data into training and testing set and stratify the data. Due to the high volume of negative responses, using stratified data will make the negative and positive groups more equal in size to decrease skew
-------------------------------
-Logistic regression will be used as the main classification model due to its suitability for binary outcomes. The dataset will be split into training and testing sets (80% training, 20% testing), and we will use stratified sampling to preserve the proportion of high and low ratings in both sets. K-fold cross-validation (k=5) will be applied on the training data to assess model stability and reduce overfitting.
-
+   - This will create 4 new columns that correspond to compound sentiment, positive sentiment, neutral sentiment, and negitive sentiment
+3. Define the features: Review Text, country, review count, month posted, compound sentiment, positive sentiment, neutral sentiment, and negitive sentiment and target: rating (high or low)
+4. Split the data into training and testing set and stratify the data. Due to the high volume of negative responses, using stratified data will make the negative and positive groups more equal in size to decrease skew
+5. Transform columns to be used in logistic regression
+   - TfidfVectorizer for text columns
+   - StandardScaler for numeric features
+   - OneHotEncoder for categorical features
+6. Fit a logistic regression to this tranformed data
+7. Fine tune the model to maximize the F1 score
 Evaluation
 - Find accuracy, precision, recall, F1, and correlation scores (considered successful if accuracy is >90%)
 - Create a feature importance map to determine what factor is the greatest predictor of rating
