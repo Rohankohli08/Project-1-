@@ -20,7 +20,7 @@ Cleaning the data
 - Keep only these columns: Country, Review Title, Review Text, year_posted, month_posted, month_ex, year_ex, review count, rating
 - Remove rows with missing data out of the relevent columns
 - Classify ratings into new column 'high' (4 and 5) or 'low' (1 and 2)
-- Remove 3 ratings
+- Remove '3' ratings
 - Keep only the top 5 countries with the most ratings
   
 Analysis
