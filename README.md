@@ -2,11 +2,11 @@
 ## Software and Platform
 - Utilized Google Collabs Python notebook to complete the code
 - Must download the vaderSentiment package
-- This code runs on either windows or mac systems
+- This code runs on either Windows or Mac systems
 ## Documentation Map
 Main Branch Folders
 - Data
-  - Amazon_Reviews.csv (origional data)
+  - Amazon_Reviews.csv (original data)
   - clean_df.csv (cleaned data)
 - Output
 - Scripts
