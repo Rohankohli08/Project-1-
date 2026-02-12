@@ -1,6 +1,6 @@
 # Freenor's Fourth Years Data Science Project 1: Predicting Amazon Ratings Based on Reviews
 ## Software and Platform
-- Utilized Google Collabs Python notebook to complete the code
+- Utilized Google Colab's Python notebook to complete the code
 - Must download the vaderSentiment package
 - This code runs on either Windows or Mac systems
 ## Documentation Map
@@ -19,8 +19,8 @@ Cleaning the data
 - Keep only reviews from the year 2023 and 2024
 - Keep only these columns: Country, Review Title, Review Text, year_posted, month_posted, month_ex, year_ex, review count, rating
 - Remove rows with missing data out of the relevent columns
-- Classify ratings into new column 'high' (4 and 5) or 'low' (1 and 2)
 - Remove '3' ratings
+- Classify ratings into new column 'high' (4 and 5) or 'low' (1 and 2)
 - Keep only the top 5 countries with the most ratings
   
 Analysis
