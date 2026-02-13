@@ -16,13 +16,13 @@ Main Branch Folders
 Cleaning the data
 - Split the two date columns into their day, month, and year components to create new columns for each aspect
 - Split rating so that the number is seperated from the rest of the words in the column and save it as its own column
-- Keep only reviews from the year 2023 and 2024
+- Remove rows with missing data for relevant columns ("year_posted", "Review Text", and "rating")
 - Keep only these columns: Country, Review Title, Review Text, year_posted, month_posted, month_ex, year_ex, review count, rating
-- Remove rows with missing data out of the relevent columns
+- Keep only reviews from the year 2023 and 2024 (filter year_posted)
 - Remove '3' ratings
 - Classify ratings into new column 'high' (4 and 5) or 'low' (1 and 2)
-- Keep only the top 5 countries with the most ratings
-  
+- Create a new column called 'country_grouped' where you keep only the top 5 countries with the most ratings and everything else is 'other'
+
 Analysis
 1. Generate sentiment scores based on the review text column using Vader package based on example code
    - This will create 4 new columns that correspond to compound sentiment, positive sentiment, neutral sentiment, and negitive sentiment
