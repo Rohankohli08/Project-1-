@@ -38,3 +38,8 @@ Analysis
 Evaluation
 - Find accuracy, precision, recall, F1, and correlation scores (considered successful if accuracy is >90%)
 - Create a feature importance map to determine what factor is the greatest predictor of rating
+
+References:
+[1] Mustapha Tijani, “The Complete Guide to NLP Text Preprocessing: Tokenization, Normalization, Stemming, Lemmatization, and More,” DEV Community, Nov. 14, 2025. https://dev.to/themustaphatijani/the-complete-guide-to-nlp-text-preprocessing-tokenization-normalization-stemming-lemmatization-50ap.
+
+[2] C. Hutto and E. Gilbert, “VADER: a Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text,” Proceedings of the International AAAI Conference on Web and Social Media, vol. 8, no. 1, May 2014, doi: https://doi.org/10.1609/icwsm.v8i1.14550.
