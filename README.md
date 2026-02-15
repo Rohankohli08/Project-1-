@@ -1,4 +1,4 @@
-# Freenor's Fourth Years Data Science Project 1: Predicting Amazon Ratings Based on Reviews
+# Freenor's Fourth Years Data Science Project 1: Predicting Amazon Ratings Based on Reviews Using Text-Based Logistic Regression and Sentiment Analysis
 ## Software and Platform
 - Utilized Google Colab's Python notebook to complete the code
 - Must download the vaderSentiment package
