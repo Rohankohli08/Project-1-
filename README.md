@@ -17,10 +17,10 @@ Cleaning the data
 - Split the two date columns into their day, month, and year components to create new columns for each aspect.
 - Split rating so that the number is seperated from the rest of the words in the column and save it as its own column.
 - Remove rows with missing data for relevant columns ("year_posted", "Review Text", and "rating").
-- Keep only these columns: Country, Review Title, Review Text, year_posted, month_posted, month_ex, year_ex, review count, rating.
+- Keep only these columns: **Country, Review Title, Review Text, year_posted, month_posted, month_ex, year_ex, review count, rating.**
 - Keep only reviews from the year 2023 and 2024 (filter year_posted).
 - Remove '3' ratings.
-- Classify ratings into new column 'high' (4 and 5) or 'low' (1 and 2).
+- Classify ratings into new column **'high' (4 and 5)** or **'low' (1 and 2).**
 - Create a new column called 'country_grouped' where you keep only the top 5 countries with the most ratings and everything else is 'other'.
 
 Modeling Steps
